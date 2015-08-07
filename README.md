@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [HTML5 Boilerplate](https://html5boilerplate.com)
 
 [![Build Status](https://travis-ci.org/h5bp/html5-boilerplate.svg)](https://travis-ci.org/h5bp/html5-boilerplate)
@@ -90,3 +91,9 @@ the [guidelines](CONTRIBUTING.md):
 ## License
 
 The code is available under the [MIT license](LICENSE.txt).
+=======
+# HendonHerald
+First exercise for tombola academy 
+
+Purpose to learn the basics of html, css and javascript.
+>>>>>>> 4aa1c3c1028dfdb8c4c5b1564ac63ea58033ffad

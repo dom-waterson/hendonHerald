@@ -22,12 +22,13 @@ footer{
 h3 {
     font-size: 21px;
     font-weight: bold;
+    margin:0;
 }
 
 article{
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-top: 1px;
+    /* padding: top, right, bottom, left */
+    padding: 8px 0 8px 0;
+    margin-top: 1px;
     color:#404040;
 }
 
@@ -38,6 +39,20 @@ header {
 
 header h1 {
     font-size: 50px;
+    display: inline-block;
+}
+
+nav ul {
+    display: inline;
+    list-style: none;
+}
+
+nav li {
+   display: inline;
+}
+
+nav {
+    display: inline-block;
 }
 
 #logo{
@@ -57,9 +72,127 @@ article h2{
 article img {
     height: 278px;
     width: 370px;
+    /*display: inline-block;*/
+    vertical-align: top;
 }
 
 footer img{
     height:108px;
     width: 95px;
+    display: inline-block;
 }
+
+
+#contentContainer{
+    width: 980px;
+    margin-top:0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: #AAAAAA;*/
+}
+
+main {
+    width: 780px;
+    display: inline-block;
+}
+
+aside {
+    width: 200px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+aside h3 {
+    font-size: 18px;
+    margin: 0;
+    padding: 4px;
+}
+
+aside table {
+    width: 200px;
+
+}
+
+aside th {
+    background-color: #404040;
+    color: #AAAAAA;
+}
+
+.tableLeftCol{
+    text-align: left;
+}
+
+.tableRightCol{
+    text-align: right;
+    width:50px;
+}
+
+nav li{
+    width: 40px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-left: 1px solid;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+nav a:hover {
+    color: #AAAAAA;
+}
+
+nav li:first-child{
+    border: 0;
+}
+
+.articleStyle{
+    width: 406px;
+    display: inline-block;
+}
+
+footer p {
+    display: inline-block;
+    vertical-align: top;
+    width:850px;
+}
+
+/******** Media Queries **********/
+@media screen and (max-width: 980px){
+    aside{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 780px){
+    article img{
+        width:200px;
+        height:200px;
+    }
+}
+
+footer section div {
+    width:850px;
+    display:inline-block;
+    margin:0;
+    vertical-align:top;
+}
+
+footer h4 {
+    margin:0;
+}
+
+footer p {
+    margin: 4px;
+}
+
+.centerStyle{
+    text-align: center;
+}
+
+
+
+
