@@ -5,6 +5,7 @@
     <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="src/css/HendonHeraldStylesheet.css" type="text/css" />
     <link rel="stylesheet" href="src/css/main.css" type="text/css" />
+    <script src="src/js/contact-form.js"></script>
     <title>The Hendon Herald- Sunderland's Premier News Sauce</title>
 </head>
 <body>
@@ -93,6 +94,14 @@
                             <td class="tableRightCol">-4</td>
                         </tr>
                     </table>
+                </section>
+                <section>
+                    <h3 class="headingColourScheme">Contact Us</h3>
+                    <form name="contactForm">
+                        <label>Your e-mail:<input id="email" type="email" name="email"></label><br>
+                        <label>Your message:<textarea id="message"  name="message"></textarea></label><br>
+                        <input type="button" value="Submit" onclick="validateForm();">
+                    </form>
                 </section>
             </aside>
         <footer>
