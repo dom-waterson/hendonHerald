@@ -5,7 +5,10 @@
     <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="src/css/HendonHeraldStylesheet.css" type="text/css" />
     <link rel="stylesheet" href="src/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="src/css/flexslider.css" type="text/css"/>
     <script src="src/js/contact-form.js"></script>
+    <script src="src/js/jquery-1.11.1.min.js"></script>
+    <script src="src/js/jquery.flexslider-min.js"></script>
     <title>The Hendon Herald- Sunderland's Premier News Sauce</title>
 </head>
 <body>
@@ -95,6 +98,22 @@
                         </tr>
                     </table>
                 </section>
+                <section class="flexslider">
+                    <ul class="slides">
+                        <li>
+                            <img src="src/img/Rotator/Confusing%20Building.jpg" alt="Confusing Building" title="What is it? I don't know.">
+                            <figcaption class="sliderStyle">Sunderland Building Too Confusing</figcaption>
+                        </li>
+                        <li>
+                            <img src="src/img/Rotator/A%20Level.jpg" alt="A Level Results" title="Yet more leaping 18 Year Olds">
+                            <figcaption class="sliderStyle">A-Levels mean hackneyed girl pics</figcaption>
+                        </li>
+                        <li>
+                            <img src="src/img/Rotator/Wong%20Hendon%20Found.JPG" alt="Wrong Hendon" title="Turns out it's full of busies">
+                            <figcaption class="sliderStyle">Incorrect Hendon Found</figcaption>
+                        </li>
+                    </ul>
+                </section>
                 <section>
                     <h3 class="headingColourScheme">Contact Us</h3>
                     <form name="contactForm">
@@ -118,5 +137,12 @@
             </section>
         </footer>
     </div>
+    <script>
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                easing: "swing",
+            });});
+    </script>
 </body>
 </html>

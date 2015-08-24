@@ -167,6 +167,11 @@ footer p {
     border-width: 3px;
     border-color: #700b0b;
 }
+/******* Slider ******/
+.sliderStyle {
+    font-weight: bold;
+    text-align: center;
+}
 
 
 
